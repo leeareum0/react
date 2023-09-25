@@ -1,0 +1,15 @@
+.title {
+    display: flex; /* 구글아이콘과 텍스트의 세로 위치를 맞추기 위해 flex 사용 */
+    justify-content: center; /* 메인축 정렬(가로) */
+    align-items: center; /* 보조축 정렬(세로) */
+    padding: 50px 0px;
+  }
+  .title > span {
+    font-size: 1.5em;
+  }
+  .title > span.material-icons {
+    color: #C31432;
+  }
+  .title > span:not(.material-icons) {
+    font-weight: bold;
+  }

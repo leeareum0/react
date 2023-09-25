@@ -1,0 +1,23 @@
+.board-view{
+    width: 1200px;
+    margin: 40px auto;
+}
+.board-view-tbl{
+    width: 100%;
+    border-spacing: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.board-view-tbl th{
+    width: 20%;
+    background-color: rgba(44,62,80,0.2);
+}
+.board-view-tbl th,
+.board-view-tbl td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.boardContent{
+    min-height: 300px;
+}

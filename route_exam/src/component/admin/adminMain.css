@@ -1,0 +1,23 @@
+.admin-all-wrap{
+    width: 1200px;
+    margin: 30px auto;
+}
+.admin-content-wrap{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.admin-content-wrap>div{
+    float: left;
+}
+.admin-side-menu{
+    width: 300px;
+}
+.admin-content{
+    width: 900px;
+    box-sizing: border-box;
+    padding: 0px 50px;
+}
+.admin-title{
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.wrap {
+    display: flex;
+    flex-direction: column; /* flex정렬방향 세로 */
+    min-height: 100vh; /* footer를 항상 아래쪽에 위치하게 하기 위해 최소 높이를 100vh로 설정 */
+  }
+  .wrap > div {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .content {
+    flex: 1; /* footer를 항상 아래쪽에 위치하게 하기 위해 content의 높이를 늘리는 설정 */
+    padding: 50px;
+  }

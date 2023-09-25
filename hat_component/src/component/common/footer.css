@@ -1,0 +1,9 @@
+  /* 풋터 */
+  .footer {
+    background-color: #eee;
+    padding: 30px;
+  }
+  .footer > div {
+    width: 1200px;
+    margin: 0 auto;
+  }

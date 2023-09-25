@@ -1,0 +1,38 @@
+.product-list {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5px; /* hover box-shadow가 잘 보이기 위해 padding 설정 */
+  }
+  .product {
+    width: calc(100% / 4);
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .product:hover {
+    box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  .product-img {
+    position: relative; /* absolute의 부모에게 relative 설정 */
+  }
+  .product-img > span.material-icons {
+    color: #C31432;
+    position: absolute; /* 좋아요 버튼의 위치를 이미지 위에 위치시키기 위해 absolute 설정 */
+  }
+  .product-img > img {
+    width: 100%;
+  }
+  .product-info > div {
+    padding: 10px;
+  }
+  .product-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .product-price {
+    font-size: 20px;
+    color: #C31432;
+    font-weight: bold;
+  }

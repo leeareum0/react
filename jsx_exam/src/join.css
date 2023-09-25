@@ -1,0 +1,75 @@
+.join-wrap {
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-bg {
+    background-color: #fff;
+    width: 700px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.input-wrap {
+    padding: 5px;
+}
+.input-wrap> * {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.input-wrap>label {
+    padding: 10px 0px;
+}
+.input-wrap>input,
+.input-wrap>select {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.mid{
+    width: 48%;
+}
+.long{
+    width: 100%;
+}
+.route{
+    width: 65%;
+}
+.code{
+    width: 30%;
+}
+.agree-box{
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #aaa;
+    padding: 15px 0px;
+}
+.button-box{
+    width: 100%;
+    padding: 10px 0px;
+}
+.button-box>button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 7px;
+}
